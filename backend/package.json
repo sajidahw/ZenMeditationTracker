@@ -1,0 +1,19 @@
+{
+  "name": "backend-meditation-log",
+  "version": "1.0.0",
+  "description": "a8-wahdys-portfolio-backend: Meditation log using MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon controller.mjs"
+  },
+  "author": "Sajidah Wahdy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21",
+    "rest": "^2.0.0"
+  }
+}
